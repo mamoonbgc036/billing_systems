@@ -1,0 +1,2 @@
+1.make the keyboard tab key moving round only in input field
+2.add a delete button next to each item's row

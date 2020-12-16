@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bill Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div id="bill">
+		<h2>Bill Calculator</h2>
+		<h3>Please Enter Name,Price and Quantity of Item :</h3>
+		Item : <input type="text" name="item" id="item" placeholder="example rice">
+		Price : <input type="text" name="price" id="price" placeholder="price per unit">
+		Quantity : <input type="text" name="qty" id="qty" placeholder="Quantity Consumed">
+		<input type="submit" id="addItem" name="submit" value="Add">
+	</div>
+
+	<div id="table">
+		<h2>Customer Bill</h2>
+			<table  id="add">
+				<tr>
+					<th>Name</th>
+					<th>Quantity</th>
+					<th>Price Per Unit</th>
+					<th>Total</th>
+				</tr>	
+			</table>
+
+		<p>Your Total bill : <span id="subTotal">0</span></p>
+	</div>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

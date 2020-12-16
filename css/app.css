@@ -1,0 +1,21 @@
+		body{
+			background: #E7EAED;
+		}
+		tr,td,th{
+			border: 1px solid black;
+		}
+
+		#add{
+			margin: auto;
+		}
+
+		#bill{
+			text-align: center;
+		}
+
+		#table{
+			background: #fff;
+			width: 40%;
+			margin: auto;
+			text-align: center;
+		}
