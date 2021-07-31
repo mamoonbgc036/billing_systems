@@ -3,6 +3,8 @@
 			$(document).on('keypress', ()=>{
 				if (event.keyCode == 13) {
 					calculate();
+					 $('#item').focus();
+            		$('#item').select();
 				}
 			});
 
